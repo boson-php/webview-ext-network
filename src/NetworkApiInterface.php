@@ -7,7 +7,7 @@ namespace Boson\WebView\Api\Network;
 use Boson\WebView\Api\Network\Exception\NetworkNotAvailableException;
 use Boson\WebView\Api\Network\Exception\NetworkNotReadyException;
 
-interface NetworkExtensionInterface
+interface NetworkApiInterface
 {
     /**
      * Contains {@see true} if the Network API is available,
